@@ -4,24 +4,19 @@
         <title>Google Images</title>
         <link rel="stylesheet" href="Proj0.css">
         <Style>
-         #input_box{
-           background-image: url(images/srch_img.png);  
-           background-size: 30px;
-           color: black;
-           border-color: gray;
-           align-items: left;
-           background-repeat: no-repeat;
-           padding-left: 30px;
-         }          
+
+
+
         </Style>
     </head>
     <div class="nav_bar">
-        <a href="Pg_Advance.html">Advance Search </a>
-        <a href="Pg_Search.html"> Search</a>
+        <a href="Pg_Search.html">Search   </a>
+        <a href="Pg_Advance.html">  Advance Search </a>
     </div>
-       <div id="search_slab"> 
-        <form id="search_input" action="https://google.com/search">
-            <img id="img_main" src="./images/Google_imgs.png" > 
+    <div id=pg_container> 
+
+        <form action="https://google.com/search">
+            <img id="ggl_img" src="./images/Google_imgs.png" > 
             <input id="input_box" type="text" name="q"><br>
             <input type="hidden" id="source" name="source" value="lnms">
             <input type="hidden" id="tbm" name="tbm" value="isch">
@@ -30,8 +25,9 @@
             <input type="hidden" id="biw" name="biw" value="1200">
             <input type="hidden" id="bih" name="bih" value="600">
             <input type="submit" hidden>
+
         </form>
-        </div>
+    </div>
     <body>
 
 
